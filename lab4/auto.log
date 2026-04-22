@@ -1,0 +1,42 @@
+
+=== Статистика режима: parallel ===
+Файлов всего: 10
+Файлов обработано: 10
+Ошибок: 0
+Общее время: 105.776 ms
+Среднее время на файл: 10.578 ms
+Детализация по файлам:
+  [1] 1.txt | status=ok | 100.173 ms
+  [2] 11.txt | status=ok | 98.455 ms
+  [3] 2.txt | status=ok | 98.290 ms
+  [4] 22.txt | status=ok | 101.448 ms
+  [5] 3.txt | status=ok | 1.938 ms
+  [6] 33.txt | status=ok | 1.472 ms
+  [7] 4.txt | status=ok | 1.265 ms
+  [8] 44.txt | status=ok | 0.981 ms
+  [9] 5.txt | status=ok | 1.015 ms
+  [10] 55.txt | status=ok | 2.816 ms
+
+=== Статистика режима: sequential ===
+Файлов всего: 10
+Файлов обработано: 10
+Ошибок: 0
+Общее время: 10.786 ms
+Среднее время на файл: 1.079 ms
+Детализация по файлам:
+  [1] 1.txt | status=ok | 0.991 ms
+  [2] 11.txt | status=ok | 1.344 ms
+  [3] 2.txt | status=ok | 1.426 ms
+  [4] 22.txt | status=ok | 1.111 ms
+  [5] 3.txt | status=ok | 0.905 ms
+  [6] 33.txt | status=ok | 0.886 ms
+  [7] 4.txt | status=ok | 0.873 ms
+  [8] 44.txt | status=ok | 1.004 ms
+  [9] 5.txt | status=ok | 1.122 ms
+  [10] 55.txt | status=ok | 0.956 ms
+
+=== Сравнение режимов (auto) ===
+Выбранный режим: parallel
+mode         | total_ms       | avg_ms         | failed  
+parallel     | 105.776        | 10.578         | 0       
+sequential   | 10.786         | 1.079          | 0       
