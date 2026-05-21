@@ -1,0 +1,18 @@
+
+=== Статистика режима: sequential ===
+Файлов всего: 10
+Файлов обработано: 10
+Ошибок: 0
+Общее время: 30.537 ms
+Среднее время на файл: 3.054 ms
+Детализация по файлам:
+  [1] 1.txt | status=ok | 2.053 ms
+  [2] 11.txt | status=ok | 1.944 ms
+  [3] 2.txt | status=ok | 2.206 ms
+  [4] 22.txt | status=ok | 1.403 ms
+  [5] 3.txt | status=ok | 2.083 ms
+  [6] 33.txt | status=ok | 10.780 ms
+  [7] 4.txt | status=ok | 2.629 ms
+  [8] 44.txt | status=ok | 2.161 ms
+  [9] 5.txt | status=ok | 1.338 ms
+  [10] 55.txt | status=ok | 2.391 ms
